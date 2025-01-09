@@ -24,23 +24,8 @@ This document provides a comprehensive overview of Angular versions, detailing f
 | Angular 15.0  | November 2022  | Enhanced standalone APIs, Lazy-loading improvements.                                             |
 | Angular 16.0  | May 2023       | Signal-based reactivity, Optional Zone.js, TypeScript 5.0.                                       |
 | Angular 17.0  | November 2023  | Strengthened standalone support, CLI performance enhancements, TypeScript 5.2+.                 |
-
----
-
-## Angular Concepts Progression
-
-| Level          | Concepts                                                                                                    |
-|----------------|------------------------------------------------------------------------------------------------------------|
-| **Basic**      | Angular CLI, Components, Templates, Data Binding (Interpolation, Property, Event), Directives (*ngIf, *ngFor). |
-| **Medium**     | Services and Dependency Injection, Routing and Navigation, Forms (Template-Driven and Reactive), Pipes.     |
-| **Advanced**   | Change Detection Strategies, RxJS (Observables and Subjects), State Management (NgRx), Lazy Loading Modules. |
-| **Expert**     | Ivy Rendering Engine, Standalone Components, Server-Side Rendering (Angular Universal), Signal-Based Reactivity, Performance Optimization. |
-
-### Suggested Learning Sequence
-1. Start with **Basic Concepts** to understand the core Angular features.
-2. Progress to **Medium Concepts** to learn about application architecture, form handling, and routing.
-3. Dive into **Advanced Concepts** to master state management, advanced RxJS patterns, and module optimizations.
-4. Finally, tackle **Expert Concepts** to fine-tune performance, understand advanced rendering, and adopt new Angular paradigms like signals.
+| Angular 18.0  | May 2024       | Control flow syntax, Angular Material 3, Experimental zoneless change detection, TypeScript 5.4 support. |
+| Angular 19.0  | November 2024  | Standalone directives, components, and pipes by default, Enhanced server-side rendering, Improved performance optimizations. |
 
 ---
 
@@ -121,6 +106,17 @@ This document provides a comprehensive overview of Angular versions, detailing f
 - Stronger standalone component support.
 - CLI and performance enhancements.
 
+### Angular 18.0
+- **Control Flow Syntax:** Introduction of stable control flow syntax and defer blocks.
+- **Angular Material 3:** Stable release with updated themes and documentation.
+- **Experimental Zoneless Change Detection:** Support for change detection without Zone.js.
+- **TypeScript 5.4 Support:** Compatibility with the latest TypeScript features.
+
+### Angular 19.0
+- **Standalone by Default:** Directives, components, and pipes are now standalone by default.
+- **Enhanced Server-Side Rendering:** Improved support for server-side rendering with Angular Universal.
+- **Performance Optimizations:** Various enhancements for better application performance.
+
 ---
 
 ## Concepts Introduced
@@ -152,4 +148,4 @@ This document provides a comprehensive overview of Angular versions, detailing f
 
 ## Summary
 
-Angular has grown into a robust and scalable framework for building web applications. With each version, the framework introduced features and optimizations aimed at improving developer experience, application performance, and maintainability. This timeline captures its rich evolution from AngularJS to Angular 17.
+Angular has grown into a robust and scalable framework for building web applications. With each version, the framework introduced features and optimizations aimed at improving developer experience, application performance, and maintainability. This timeline captures its rich evolution from AngularJS to Angular 19.
