@@ -44,6 +44,7 @@
 - [Major Breaking Changes & Migration Highlights](#major-breaking-changes--migration-highlights)
 - [Ecosystem & Tooling Evolution](#ecosystem--tooling-evolution)
 - [Summary: The Angular Trajectory](#summary-the-angular-trajectory)
+- [Angular Mastery Course](#angular-mastery-course)
 - [Further Reading](#further-reading)
 
 ---
@@ -656,6 +657,18 @@ Angular's journey is one of deliberate, principled evolution. Each era solved th
 - **Era 3 (Signals)** delivers the reactive model that removes Zone.js overhead, makes change detection predictable, and aligns Angular with how modern JavaScript runtimes actually work.
 
 Angular 22 represents the culmination of a multi-year strategy: applications that are signal-driven, zoneless, OnPush by default, and statically typed from model to form to template. The framework has never been more opinionated — and that opinionation has never been more correct.
+
+---
+
+## Angular Mastery Course
+
+### From TypeScript Foundations to Enterprise‑Grade Angular (v19+)
+
+This repository contains a complete, end‑to‑end Angular learning path, designed to transform developers from TypeScript beginners into confident, production‑ready Angular engineers capable of building real‑world, scalable, and maintainable applications.
+
+This course focuses on modern Angular (Signals, `rxResource`, Control Flow, Zoneless‑ready patterns), real architectural thinking, and hands‑on projects that mirror professional frontend work.
+
+🔗 [CristianSifuentes/AngularMasteryCourse](https://github.com/CristianSifuentes/AngularMasteryCourse_)
 
 ---
 
