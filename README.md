@@ -6,6 +6,49 @@
 
 ---
 
+## Table of Contents
+
+- [Three Eras of Angular](#three-eras-of-angular)
+- [Complete Version Timeline](#complete-version-timeline)
+- [LTS Support Matrix](#lts-support-matrix)
+- [Why Angular 3 Was Never Released](#why-angular-3-was-never-released)
+- [Version Deep Dives](#version-deep-dives)
+  - [AngularJS 1.x — October 2010](#angularjs-1x--october-2010)
+  - [Angular 2.0 — September 2016](#angular-20--september-2016)
+  - [Angular 4.0 — March 2017](#angular-40--march-2017)
+  - [Angular 5.0 — November 2017](#angular-50--november-2017)
+  - [Angular 6.0 — May 2018](#angular-60--may-2018)
+  - [Angular 7.0 — October 2018](#angular-70--october-2018)
+  - [Angular 8.0 — May 2019](#angular-80--may-2019)
+  - [Angular 9.0 — February 2020](#angular-90--february-2020)
+  - [Angular 10.0 — June 2020](#angular-100--june-2020)
+  - [Angular 11.0 — November 2020](#angular-110--november-2020)
+  - [Angular 12.0 — May 2021](#angular-120--may-2021)
+  - [Angular 13.0 — November 2021](#angular-130--november-2021)
+  - [Angular 14.0 — June 2022](#angular-140--june-2022)
+  - [Angular 15.0 — November 2022](#angular-150--november-2022)
+  - [Angular 16.0 — May 2023](#angular-160--may-2023)
+  - [Angular 17.0 — November 2023](#angular-170--november-2023)
+  - [Angular 18.0 — May 2024](#angular-180--may-2024)
+  - [Angular 19.0 — November 2024](#angular-190--november-2024)
+  - [Angular 20.0 — May 28, 2025](#angular-200--may-28-2025)
+  - [Angular 21.0 — November 20, 2025](#angular-210--november-20-2025)
+  - [Angular 22.0 — June 3, 2026](#angular-220--june-3-2026)
+- [Architectural Evolution at a Glance](#architectural-evolution-at-a-glance)
+- [Reactivity: From Digest Cycle to Signals](#reactivity-from-digest-cycle-to-signals)
+  - [Stage 1 — AngularJS Digest Cycle (2010–2016)](#stage-1--angularjs-digest-cycle-20102016)
+  - [Stage 2 — Zone.js Interception (2016–2023)](#stage-2--zonejs-interception-20162023)
+  - [Stage 3 — Signals (2023–present)](#stage-3--signals-2023present)
+- [Key Concepts Glossary](#key-concepts-glossary)
+- [TypeScript Compatibility Matrix](#typescript-compatibility-matrix)
+- [Major Breaking Changes & Migration Highlights](#major-breaking-changes--migration-highlights)
+- [Ecosystem & Tooling Evolution](#ecosystem--tooling-evolution)
+- [Summary: The Angular Trajectory](#summary-the-angular-trajectory)
+- [Angular Mastery Course](#angular-mastery-course)
+- [Further Reading](#further-reading)
+
+---
+
 ## Three Eras of Angular
 
 Angular's history divides cleanly into three architectural eras, each defined by a fundamental rethinking of how applications are built:
@@ -614,6 +657,18 @@ Angular's journey is one of deliberate, principled evolution. Each era solved th
 - **Era 3 (Signals)** delivers the reactive model that removes Zone.js overhead, makes change detection predictable, and aligns Angular with how modern JavaScript runtimes actually work.
 
 Angular 22 represents the culmination of a multi-year strategy: applications that are signal-driven, zoneless, OnPush by default, and statically typed from model to form to template. The framework has never been more opinionated — and that opinionation has never been more correct.
+
+---
+
+## Angular Mastery Course
+
+### From TypeScript Foundations to Enterprise‑Grade Angular (v19+)
+
+This repository contains a complete, end‑to‑end Angular learning path, designed to transform developers from TypeScript beginners into confident, production‑ready Angular engineers capable of building real‑world, scalable, and maintainable applications.
+
+This course focuses on modern Angular (Signals, `rxResource`, Control Flow, Zoneless‑ready patterns), real architectural thinking, and hands‑on projects that mirror professional frontend work.
+
+🔗 [CristianSifuentes/AngularMasteryCourse](https://github.com/CristianSifuentes/AngularMasteryCourse_)
 
 ---
 
